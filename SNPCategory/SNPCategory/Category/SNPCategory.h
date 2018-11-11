@@ -7,9 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+// Foundation
+#import "NSData/NSData+SNPAdd.h"
 #import "NSDictionary/SNPDictionaryCategory.h"
 #import "NSArray/SNPArrayCategory.h"
+#import "NSDate/SNPDateCategory.h"
 #import "NSString/SNPStringCategory.h"
+// UIKit
+#import "UIImage/SNPImageCategory.h"
+#import "UIColor/SNPColorCategory.h"
+#import "UIDevice/SNPDeviceCategory.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

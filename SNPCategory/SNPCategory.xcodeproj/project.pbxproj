@@ -12,6 +12,8 @@
 		7D2955422197DB5E00381C5A /* UIColor+SNPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2955412197DB5E00381C5A /* UIColor+SNPAdd.m */; };
 		7D2955462197E04900381C5A /* UIDevice+SNPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2955452197E04900381C5A /* UIDevice+SNPAdd.m */; };
 		7D29554A2197E3A200381C5A /* NSData+SNPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2955492197E3A200381C5A /* NSData+SNPAdd.m */; };
+		7D2955512197F03800381C5A /* NSDate+SNPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2955502197F03800381C5A /* NSDate+SNPAdd.m */; };
+		7D2955542197F08500381C5A /* NSDateFormatter+SNPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2955532197F08500381C5A /* NSDateFormatter+SNPAdd.m */; };
 		7D80F4A321979E860007890F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D80F4A221979E860007890F /* AppDelegate.m */; };
 		7D80F4A621979E860007890F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D80F4A521979E860007890F /* ViewController.m */; };
 		7D80F4A921979E860007890F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D80F4A721979E860007890F /* Main.storyboard */; };
@@ -55,6 +57,14 @@
 		7D2955452197E04900381C5A /* UIDevice+SNPAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SNPAdd.m"; sourceTree = "<group>"; };
 		7D2955482197E3A200381C5A /* NSData+SNPAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+SNPAdd.h"; sourceTree = "<group>"; };
 		7D2955492197E3A200381C5A /* NSData+SNPAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+SNPAdd.m"; sourceTree = "<group>"; };
+		7D29554F2197F03800381C5A /* NSDate+SNPAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+SNPAdd.h"; sourceTree = "<group>"; };
+		7D2955502197F03800381C5A /* NSDate+SNPAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SNPAdd.m"; sourceTree = "<group>"; };
+		7D2955522197F08500381C5A /* NSDateFormatter+SNPAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+SNPAdd.h"; sourceTree = "<group>"; };
+		7D2955532197F08500381C5A /* NSDateFormatter+SNPAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+SNPAdd.m"; sourceTree = "<group>"; };
+		7D2955552197F42E00381C5A /* SNPDateCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPDateCategory.h; sourceTree = "<group>"; };
+		7D2955582197F45700381C5A /* SNPImageCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPImageCategory.h; sourceTree = "<group>"; };
+		7D29555B2197F47300381C5A /* SNPColorCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPColorCategory.h; sourceTree = "<group>"; };
+		7D29555E2197F48900381C5A /* SNPDeviceCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPDeviceCategory.h; sourceTree = "<group>"; };
 		7D80F49E21979E860007890F /* SNPCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNPCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D80F4A121979E860007890F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7D80F4A221979E860007890F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -120,6 +130,7 @@
 			children = (
 				7D2955402197DB5E00381C5A /* UIColor+SNPAdd.h */,
 				7D2955412197DB5E00381C5A /* UIColor+SNPAdd.m */,
+				7D29555B2197F47300381C5A /* SNPColorCategory.h */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -129,6 +140,7 @@
 			children = (
 				7D2955442197E04900381C5A /* UIDevice+SNPAdd.h */,
 				7D2955452197E04900381C5A /* UIDevice+SNPAdd.m */,
+				7D29555E2197F48900381C5A /* SNPDeviceCategory.h */,
 			);
 			path = UIDevice;
 			sourceTree = "<group>";
@@ -140,6 +152,18 @@
 				7D2955492197E3A200381C5A /* NSData+SNPAdd.m */,
 			);
 			path = NSData;
+			sourceTree = "<group>";
+		};
+		7D29554B2197EF2A00381C5A /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				7D29554F2197F03800381C5A /* NSDate+SNPAdd.h */,
+				7D2955502197F03800381C5A /* NSDate+SNPAdd.m */,
+				7D2955522197F08500381C5A /* NSDateFormatter+SNPAdd.h */,
+				7D2955532197F08500381C5A /* NSDateFormatter+SNPAdd.m */,
+				7D2955552197F42E00381C5A /* SNPDateCategory.h */,
+			);
+			path = NSDate;
 			sourceTree = "<group>";
 		};
 		7D80F49521979E860007890F = {
@@ -207,6 +231,7 @@
 				7D2955472197E39200381C5A /* NSData */,
 				7D80F4D721979EF90007890F /* NSDictionary */,
 				7D80F4D621979EEC0007890F /* NSArray */,
+				7D29554B2197EF2A00381C5A /* NSDate */,
 				7D80F4D521979EDB0007890F /* NSString */,
 				7D80F4D421979EC90007890F /* UIImage */,
 				7D29553F2197DB5200381C5A /* UIColor */,
@@ -220,6 +245,7 @@
 			children = (
 				7D80F4D821979F2A0007890F /* UIImage+SNPAdd.h */,
 				7D80F4D921979F2A0007890F /* UIImage+SNPAdd.m */,
+				7D2955582197F45700381C5A /* SNPImageCategory.h */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -393,12 +419,14 @@
 				7D80F4A621979E860007890F /* ViewController.m in Sources */,
 				7D80F4E62197B5320007890F /* NSString+SNPAdd.m in Sources */,
 				7D80F4DD2197A0110007890F /* NSArray+SNPAdd.m in Sources */,
+				7D2955512197F03800381C5A /* NSDate+SNPAdd.m in Sources */,
 				7D80F4DA21979F2A0007890F /* UIImage+SNPAdd.m in Sources */,
 				7D80F4E92197C3970007890F /* NSDictionary+SNPAdd.m in Sources */,
 				7D80F4F52197C69B0007890F /* SNPCategory.m in Sources */,
 				7D80F4B121979E880007890F /* main.m in Sources */,
 				7D80F4E32197B1CB0007890F /* NSDictionary+SNPException.m in Sources */,
 				7D29553D2197C73400381C5A /* SNPHead.m in Sources */,
+				7D2955542197F08500381C5A /* NSDateFormatter+SNPAdd.m in Sources */,
 				7D2955462197E04900381C5A /* UIDevice+SNPAdd.m in Sources */,
 				7D2955422197DB5E00381C5A /* UIColor+SNPAdd.m in Sources */,
 				7D80F4E02197AC620007890F /* NSArray+SNPException.m in Sources */,

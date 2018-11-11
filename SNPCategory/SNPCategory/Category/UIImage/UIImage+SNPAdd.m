@@ -55,7 +55,7 @@
     return gifImgArr;
 }
 
-+ (BOOL)gifFromImages:(NSArray *)imgsArr atPath:(NSString *)gifFolderPath withName:(NSString *)gifName {
++ (BOOL)imageGifFromImages:(NSArray *)imgsArr atPath:(NSString *)gifFolderPath withName:(NSString *)gifName{
 //    BOOL result = NO;
     
     //    NSString *documentPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
@@ -141,7 +141,7 @@
 }
 
 #pragma mark - CornerRadios
-- (UIImage *)circleImage {
+- (UIImage *)imageToCircle {
     // NO 代表透明
     UIGraphicsBeginImageContextWithOptions(self.size, NO, 0.0);
     // 获取上下文

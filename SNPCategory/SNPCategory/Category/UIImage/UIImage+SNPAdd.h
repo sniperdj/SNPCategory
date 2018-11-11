@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 /** 从gif路径中中分解出图片数组 */
 + (NSArray *)imagesFromGifUrl:(NSURL *)gifUrl;
 /** 将图片数组合成为gif  返回值:YES成功  NO失败 */
-+ (BOOL)gifFromImages:(NSArray *)imgsArr atPath:(NSString *)gifFolderPath withName:(NSString *)gifName;
++ (BOOL)imageGifFromImages:(NSArray *)imgsArr atPath:(NSString *)gifFolderPath withName:(NSString *)gifName;
 
 /** 将图片逆时针旋转x度  x / 180 * M_PI */
 - (UIImage *)imageRotateWithAngle:(CGFloat)angle;
@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (UIImage *)imageCutWithRect:(CGRect)cutRect;
 
 /** 圆图 */
-- (UIImage *)circleImage;
+- (UIImage *)imageToCircle;
 /** 设置图片圆角半径 */
 - (UIImage *)imageWithCornerRadius:(CGFloat)radius;
 
