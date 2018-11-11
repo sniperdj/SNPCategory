@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		7D29553D2197C73400381C5A /* SNPHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D29553C2197C73400381C5A /* SNPHead.m */; };
 		7D29553E2197C73400381C5A /* SNPHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D29553C2197C73400381C5A /* SNPHead.m */; };
+		7D2955422197DB5E00381C5A /* UIColor+SNPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2955412197DB5E00381C5A /* UIColor+SNPAdd.m */; };
+		7D2955462197E04900381C5A /* UIDevice+SNPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2955452197E04900381C5A /* UIDevice+SNPAdd.m */; };
+		7D29554A2197E3A200381C5A /* NSData+SNPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2955492197E3A200381C5A /* NSData+SNPAdd.m */; };
 		7D80F4A321979E860007890F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D80F4A221979E860007890F /* AppDelegate.m */; };
 		7D80F4A621979E860007890F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D80F4A521979E860007890F /* ViewController.m */; };
 		7D80F4A921979E860007890F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D80F4A721979E860007890F /* Main.storyboard */; };
@@ -46,6 +49,12 @@
 /* Begin PBXFileReference section */
 		7D29553B2197C73400381C5A /* SNPHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPHead.h; sourceTree = "<group>"; };
 		7D29553C2197C73400381C5A /* SNPHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNPHead.m; sourceTree = "<group>"; };
+		7D2955402197DB5E00381C5A /* UIColor+SNPAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+SNPAdd.h"; sourceTree = "<group>"; };
+		7D2955412197DB5E00381C5A /* UIColor+SNPAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SNPAdd.m"; sourceTree = "<group>"; };
+		7D2955442197E04900381C5A /* UIDevice+SNPAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SNPAdd.h"; sourceTree = "<group>"; };
+		7D2955452197E04900381C5A /* UIDevice+SNPAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SNPAdd.m"; sourceTree = "<group>"; };
+		7D2955482197E3A200381C5A /* NSData+SNPAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+SNPAdd.h"; sourceTree = "<group>"; };
+		7D2955492197E3A200381C5A /* NSData+SNPAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+SNPAdd.m"; sourceTree = "<group>"; };
 		7D80F49E21979E860007890F /* SNPCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNPCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D80F4A121979E860007890F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7D80F4A221979E860007890F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,6 +115,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D29553F2197DB5200381C5A /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				7D2955402197DB5E00381C5A /* UIColor+SNPAdd.h */,
+				7D2955412197DB5E00381C5A /* UIColor+SNPAdd.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		7D2955432197E03600381C5A /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				7D2955442197E04900381C5A /* UIDevice+SNPAdd.h */,
+				7D2955452197E04900381C5A /* UIDevice+SNPAdd.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		7D2955472197E39200381C5A /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				7D2955482197E3A200381C5A /* NSData+SNPAdd.h */,
+				7D2955492197E3A200381C5A /* NSData+SNPAdd.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
 		7D80F49521979E860007890F = {
 			isa = PBXGroup;
 			children = (
@@ -168,10 +204,13 @@
 			children = (
 				7D80F4F32197C69B0007890F /* SNPCategory.h */,
 				7D80F4F42197C69B0007890F /* SNPCategory.m */,
+				7D2955472197E39200381C5A /* NSData */,
 				7D80F4D721979EF90007890F /* NSDictionary */,
 				7D80F4D621979EEC0007890F /* NSArray */,
 				7D80F4D521979EDB0007890F /* NSString */,
 				7D80F4D421979EC90007890F /* UIImage */,
+				7D29553F2197DB5200381C5A /* UIColor */,
+				7D2955432197E03600381C5A /* UIDevice */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -350,6 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D29554A2197E3A200381C5A /* NSData+SNPAdd.m in Sources */,
 				7D80F4A621979E860007890F /* ViewController.m in Sources */,
 				7D80F4E62197B5320007890F /* NSString+SNPAdd.m in Sources */,
 				7D80F4DD2197A0110007890F /* NSArray+SNPAdd.m in Sources */,
@@ -359,6 +399,8 @@
 				7D80F4B121979E880007890F /* main.m in Sources */,
 				7D80F4E32197B1CB0007890F /* NSDictionary+SNPException.m in Sources */,
 				7D29553D2197C73400381C5A /* SNPHead.m in Sources */,
+				7D2955462197E04900381C5A /* UIDevice+SNPAdd.m in Sources */,
+				7D2955422197DB5E00381C5A /* UIColor+SNPAdd.m in Sources */,
 				7D80F4E02197AC620007890F /* NSArray+SNPException.m in Sources */,
 				7D80F4A321979E860007890F /* AppDelegate.m in Sources */,
 			);
