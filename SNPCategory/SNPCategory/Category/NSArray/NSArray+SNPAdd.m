@@ -10,13 +10,20 @@
 
 @implementation NSArray (SNPAdd)
 
-- (NSString * _Nonnull (^)(void))arrToStrJSON {
+- (NSData * _Nonnull (^)(void))arrToData {
     return ^() {
         NSError *err = nil;
         NSData *arrData = [NSJSONSerialization dataWithJSONObject:self options:NSJSONWritingPrettyPrinted error:&err];
         if (err) {
             NSLog(@"arr to data err : %@", err);
         }
+        return arrData;
+    };
+}
+
+- (NSString * _Nonnull (^)(void))arrToStrJSON {
+    return ^() {
+        NSData *arrData = self.arrToData();
         NSString *strJSON = [[NSString alloc] initWithData:arrData encoding:NSUTF8StringEncoding];
         return strJSON;
     };
@@ -45,7 +52,7 @@
         if ([item respondsToSelector:@selector(mutableCopyDeeply)]) {
             item = [item mutableCopyDeeply];
         } else if ([item respondsToSelector:@selector(copyDeeply)]) {
-            item = [item copyDeeply];
+            item = [item mutableCopy];
         } else {
             item = [item copy];
         }
@@ -53,7 +60,7 @@
             [array addObject:item];
         }
     }];
-    return [NSMutableArray arrayWithObject:array];
+    return array;
 }
 
 @end

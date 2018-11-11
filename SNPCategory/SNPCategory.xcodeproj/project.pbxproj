@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D29553D2197C73400381C5A /* SNPHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D29553C2197C73400381C5A /* SNPHead.m */; };
+		7D29553E2197C73400381C5A /* SNPHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D29553C2197C73400381C5A /* SNPHead.m */; };
 		7D80F4A321979E860007890F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D80F4A221979E860007890F /* AppDelegate.m */; };
 		7D80F4A621979E860007890F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D80F4A521979E860007890F /* ViewController.m */; };
 		7D80F4A921979E860007890F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D80F4A721979E860007890F /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 		7D80F4E02197AC620007890F /* NSArray+SNPException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D80F4DF2197AC620007890F /* NSArray+SNPException.m */; };
 		7D80F4E32197B1CB0007890F /* NSDictionary+SNPException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D80F4E22197B1CB0007890F /* NSDictionary+SNPException.m */; };
 		7D80F4E62197B5320007890F /* NSString+SNPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D80F4E52197B5320007890F /* NSString+SNPAdd.m */; };
+		7D80F4E92197C3970007890F /* NSDictionary+SNPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D80F4E82197C3970007890F /* NSDictionary+SNPAdd.m */; };
+		7D80F4F52197C69B0007890F /* SNPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D80F4F42197C69B0007890F /* SNPCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D29553B2197C73400381C5A /* SNPHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPHead.h; sourceTree = "<group>"; };
+		7D29553C2197C73400381C5A /* SNPHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNPHead.m; sourceTree = "<group>"; };
 		7D80F49E21979E860007890F /* SNPCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNPCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D80F4A121979E860007890F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7D80F4A221979E860007890F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -66,6 +72,13 @@
 		7D80F4E22197B1CB0007890F /* NSDictionary+SNPException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SNPException.m"; sourceTree = "<group>"; };
 		7D80F4E42197B5320007890F /* NSString+SNPAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SNPAdd.h"; sourceTree = "<group>"; };
 		7D80F4E52197B5320007890F /* NSString+SNPAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SNPAdd.m"; sourceTree = "<group>"; };
+		7D80F4E72197C3970007890F /* NSDictionary+SNPAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SNPAdd.h"; sourceTree = "<group>"; };
+		7D80F4E82197C3970007890F /* NSDictionary+SNPAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SNPAdd.m"; sourceTree = "<group>"; };
+		7D80F4EA2197C5C90007890F /* SNPDictionaryCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPDictionaryCategory.h; sourceTree = "<group>"; };
+		7D80F4ED2197C6120007890F /* SNPArrayCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPArrayCategory.h; sourceTree = "<group>"; };
+		7D80F4F02197C6480007890F /* SNPStringCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPStringCategory.h; sourceTree = "<group>"; };
+		7D80F4F32197C69B0007890F /* SNPCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPCategory.h; sourceTree = "<group>"; };
+		7D80F4F42197C69B0007890F /* SNPCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNPCategory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +139,8 @@
 				7D80F4AC21979E880007890F /* LaunchScreen.storyboard */,
 				7D80F4AF21979E880007890F /* Info.plist */,
 				7D80F4B021979E880007890F /* main.m */,
+				7D29553B2197C73400381C5A /* SNPHead.h */,
+				7D29553C2197C73400381C5A /* SNPHead.m */,
 			);
 			path = SNPCategory;
 			sourceTree = "<group>";
@@ -151,6 +166,8 @@
 		7D80F4D321979EB00007890F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				7D80F4F32197C69B0007890F /* SNPCategory.h */,
+				7D80F4F42197C69B0007890F /* SNPCategory.m */,
 				7D80F4D721979EF90007890F /* NSDictionary */,
 				7D80F4D621979EEC0007890F /* NSArray */,
 				7D80F4D521979EDB0007890F /* NSString */,
@@ -173,6 +190,7 @@
 			children = (
 				7D80F4E42197B5320007890F /* NSString+SNPAdd.h */,
 				7D80F4E52197B5320007890F /* NSString+SNPAdd.m */,
+				7D80F4F02197C6480007890F /* SNPStringCategory.h */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -184,6 +202,7 @@
 				7D80F4DC2197A0110007890F /* NSArray+SNPAdd.m */,
 				7D80F4DE2197AC620007890F /* NSArray+SNPException.h */,
 				7D80F4DF2197AC620007890F /* NSArray+SNPException.m */,
+				7D80F4ED2197C6120007890F /* SNPArrayCategory.h */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -191,8 +210,11 @@
 		7D80F4D721979EF90007890F /* NSDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				7D80F4E72197C3970007890F /* NSDictionary+SNPAdd.h */,
+				7D80F4E82197C3970007890F /* NSDictionary+SNPAdd.m */,
 				7D80F4E12197B1CB0007890F /* NSDictionary+SNPException.h */,
 				7D80F4E22197B1CB0007890F /* NSDictionary+SNPException.m */,
+				7D80F4EA2197C5C90007890F /* SNPDictionaryCategory.h */,
 			);
 			path = NSDictionary;
 			sourceTree = "<group>";
@@ -332,8 +354,11 @@
 				7D80F4E62197B5320007890F /* NSString+SNPAdd.m in Sources */,
 				7D80F4DD2197A0110007890F /* NSArray+SNPAdd.m in Sources */,
 				7D80F4DA21979F2A0007890F /* UIImage+SNPAdd.m in Sources */,
+				7D80F4E92197C3970007890F /* NSDictionary+SNPAdd.m in Sources */,
+				7D80F4F52197C69B0007890F /* SNPCategory.m in Sources */,
 				7D80F4B121979E880007890F /* main.m in Sources */,
 				7D80F4E32197B1CB0007890F /* NSDictionary+SNPException.m in Sources */,
+				7D29553D2197C73400381C5A /* SNPHead.m in Sources */,
 				7D80F4E02197AC620007890F /* NSArray+SNPException.m in Sources */,
 				7D80F4A321979E860007890F /* AppDelegate.m in Sources */,
 			);
@@ -344,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D80F4BB21979E880007890F /* SNPCategoryTests.m in Sources */,
+				7D29553E2197C73400381C5A /* SNPHead.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

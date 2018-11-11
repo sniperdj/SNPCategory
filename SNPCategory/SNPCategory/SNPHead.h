@@ -1,5 +1,5 @@
 //
-//  NSArray+SNPAdd.h
+//  SNPHead.h
 //  SNPCategory
 //
 //  Created by Sniper on 2018/11/11.
@@ -7,18 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SNPCategory.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSArray (SNPAdd)
-
-- (NSData *(^)(void))arrToData;
-
-- (NSString *(^)(void))arrToStrJSON;
-
-- (id)copyDeeply;
-
-- (id)mutableCopyDeeply;
+@interface SNPHead : NSObject
 
 @end
 

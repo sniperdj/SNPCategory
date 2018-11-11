@@ -1,5 +1,5 @@
 //
-//  NSArray+SNPAdd.h
+//  NSDictionary+SNPAdd.h
 //  SNPCategory
 //
 //  Created by Sniper on 2018/11/11.
@@ -10,15 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSArray (SNPAdd)
+@interface NSDictionary (SNPAdd)
 
-- (NSData *(^)(void))arrToData;
-
-- (NSString *(^)(void))arrToStrJSON;
-
-- (id)copyDeeply;
-
-- (id)mutableCopyDeeply;
+- (NSData *(^)(void))dictToData;
 
 @end
 
