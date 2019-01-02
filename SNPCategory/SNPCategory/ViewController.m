@@ -36,7 +36,24 @@
 //    NSLog(@"arr11 : %@", arr11);
 //    NSLog(@"marrCpDeep : %@", marrCpDeep);
     
-    // STRING ------------------
+}
+#pragma mark - Test UIButton Category
+- (void)testBtnCategory {
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:btn];
+    btn.frame = CGRectMake(100, 100, 100, 100);
+    btn.layer.borderWidth = 1;
+    btn.layer.borderColor = [UIColor orangeColor].CGColor;
+    //    [btn btnOfAreaWithTop:0 left:40 bottom:40 right:40];
+    [btn btnOfEdge:10];
+    [btn addTarget:self action:@selector(btnclick:) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)btnclick:(UIButton *)btn {
+    NSLog(@"btn clicked");
+}
+#pragma mark - Test String Category
+- (void)testStringCategory {
 //    NSString *strJSON = @"{\"a\" : \"1\", \"b\" : \"2\"}";
 //    NSLog(@"dict : %@", strJSON.strToDict());
 //
@@ -48,6 +65,7 @@
 //    NSLog(@"double : %.3f", strDouble.strToDouble());
 //    NSString *strFloat = @"3.5";
 //    NSLog(@"float : %.2f", strFloat.strToFloat());
+
 }
 
 
