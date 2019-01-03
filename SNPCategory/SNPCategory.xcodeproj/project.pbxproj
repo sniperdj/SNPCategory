@@ -30,6 +30,7 @@
 		7D80F4E92197C3970007890F /* NSDictionary+SNPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D80F4E82197C3970007890F /* NSDictionary+SNPAdd.m */; };
 		7D80F4F52197C69B0007890F /* SNPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D80F4F42197C69B0007890F /* SNPCategory.m */; };
 		7DA49D1D21DCF8B800F8FBC1 /* UIButton+SNPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA49D1C21DCF8B800F8FBC1 /* UIButton+SNPAdd.m */; };
+		7DA49D6421DE259400F8FBC1 /* UIButton+SNPClickExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA49D6321DE259400F8FBC1 /* UIButton+SNPClickExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,8 @@
 		7DA49D1C21DCF8B800F8FBC1 /* UIButton+SNPAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SNPAdd.m"; sourceTree = "<group>"; };
 		7DA49D1E21DD049500F8FBC1 /* SNPDataCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPDataCategory.h; sourceTree = "<group>"; };
 		7DA49D2121DD04C900F8FBC1 /* SNPButtonCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPButtonCategory.h; sourceTree = "<group>"; };
+		7DA49D6221DE259400F8FBC1 /* UIButton+SNPClickExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+SNPClickExtension.h"; sourceTree = "<group>"; };
+		7DA49D6321DE259400F8FBC1 /* UIButton+SNPClickExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SNPClickExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +299,8 @@
 			children = (
 				7DA49D1B21DCF8B800F8FBC1 /* UIButton+SNPAdd.h */,
 				7DA49D1C21DCF8B800F8FBC1 /* UIButton+SNPAdd.m */,
+				7DA49D6221DE259400F8FBC1 /* UIButton+SNPClickExtension.h */,
+				7DA49D6321DE259400F8FBC1 /* UIButton+SNPClickExtension.m */,
 				7DA49D2121DD04C900F8FBC1 /* SNPButtonCategory.h */,
 			);
 			path = UIButton;
@@ -440,6 +445,7 @@
 				7D2955512197F03800381C5A /* NSDate+SNPAdd.m in Sources */,
 				7D80F4DA21979F2A0007890F /* UIImage+SNPAdd.m in Sources */,
 				7D80F4E92197C3970007890F /* NSDictionary+SNPAdd.m in Sources */,
+				7DA49D6421DE259400F8FBC1 /* UIButton+SNPClickExtension.m in Sources */,
 				7D80F4F52197C69B0007890F /* SNPCategory.m in Sources */,
 				7D80F4B121979E880007890F /* main.m in Sources */,
 				7D80F4E32197B1CB0007890F /* NSDictionary+SNPException.m in Sources */,

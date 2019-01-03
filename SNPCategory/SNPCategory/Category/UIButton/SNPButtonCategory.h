@@ -8,3 +8,4 @@
 
 #import <Foundation/Foundation.h>
 #import "UIButton+SNPAdd.h"
+#import "UIButton+SNPClickExtension.h"
